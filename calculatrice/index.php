@@ -43,7 +43,7 @@ PTT-20170120-WA0075
 				<button  class="btn btn-primary" type='submit' name='send'>cal</button>
 			</form>
 		</div>
-		<i>decoding by sidne &copy;</i>
+		<i>coded by sidne &copy;</i>
 	</div>
 	<div>
 		<div><img src="I9.gif"><div>
