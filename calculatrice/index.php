@@ -1,4 +1,3 @@
-PTT-20170120-WA0075
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +22,7 @@ PTT-20170120-WA0075
 <body>
 
 	<strong>
-		machine calculatrice
+		calculator
 	</strong>
 	<div>
 		<p>simple calculator and eazy to use</p>
