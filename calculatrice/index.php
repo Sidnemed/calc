@@ -42,38 +42,42 @@
 				<button  class="btn btn-primary" type='submit' name='send'>cal</button>
 			</form>
 		</div>
-		<i>coded by sidne &copy;</i>
-	</div>
-	<div>
-		<div><img src="I9.gif"><div>
-		<div><img src="I8.gif"></div>
-	</div></div>
-	<?php
-		//var
-		$x=$_POST["x"];
-		$send=$_POST["send"];
-		$var1=$_POST["var1"];
-		$var2=$_POST["var2"];
-		//work of machine
-		if(isset($send)){
-			switch($x){
-			case "+":
-			echo $var1 + $var2;
-			break;
-			case "-":
-			echo $var1 - $var2;
-			break;
-			case "*":
-			echo $var1 * $var2;
-			break;
-			case "/":
-			echo $var1 / $var2;
-			break;
-			default:
-			echo "error";
+		<!-- php -->
+		<?php
+
+			//var
+			$x=$_POST["x"];
+			$send=$_POST["send"];
+			$var1=$_POST["var1"];
+			$var2=$_POST["var2"];
+			//work of machine
+			if(isset($send)){
+				switch($x){
+				case "+":
+				echo $var1 + $var2;
+				break;
+				case "-":
+				echo $var1 - $var2;
+				break;
+				case "*":
+				echo $var1 * $var2;
+				break;
+				case "/":
+				echo $var1 / $var2;
+				break;
+				default:
+				echo "error";
+				}
 			}
-		}
-	?>
+		?>
+	
+		<div>
+			<i>coded by sidne &copy;</i>
+			<div><img src="I9.gif"></div>
+			<div><img src="I8.gif"></div>
+		</div>
+	</div>
+	
 
 </body>
 </html>
